@@ -1,0 +1,35 @@
+{
+<<<<<<< HEAD
+  "name": "viral-daily",
+  "version": "1.0.0",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "netlify-cli": "^22.4.0"
+  }
+=======
+  "name": "viral-daily-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "apify-client": "^2.12.6",
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oriol7272/viral-daily.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Oriol7272/viral-daily/issues"
+  },
+  "homepage": "https://github.com/Oriol7272/viral-daily#readme"
+>>>>>>> db5e9a1 (Proyecto limpio, funcional – vídeos virales YouTube + TikTok)
+}

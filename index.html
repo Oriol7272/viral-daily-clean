@@ -1,0 +1,141 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viral Daily</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Google AdSense Auto Ads - Replace with your ID -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-your-adsense-id" crossorigin="anonymous"></script>
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    <style>
+        .video-card { margin-bottom: 20px; }
+        .hero-section { background: linear-gradient(135deg, #0066cc, #69C9D0); color: white; padding: 50px 0; }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Viral Daily</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#youtube">YouTube</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tiktok">TikTok</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#instagram">Instagram</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#x">X</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container my-5 hero-section text-center">
+        <h1>Welcome to Viral Daily</h1>
+        <p class="lead">Discover the most viral videos from YouTube, TikTok, Instagram, and X.</p>
+        <button class="btn btn-primary subscription-button">Subscribe for Premium (Ad-Free)</button>
+    </div>
+
+    <!-- Search Input -->
+    <div class="container text-center">
+        <input type="text" id="search-input" class="form-control" placeholder="Buscar videos..." style="max-width: 300px; margin: 10px auto;">
+    </div>
+
+    <!-- Ad Container -->
+    <div class="container text-center">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-your-adsense-id"
+             data-ad-slot="your-ad-unit-id"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+    </div>
+
+    <div class="container">
+        <canvas id="video-chart"></canvas>
+    </div>
+
+    <!-- YouTube Section -->
+    <section class="container my-5" id="youtube">
+        <h2>🎥 YouTube</h2>
+        <div class="row" id="youtube-videos"></div>
+    </section>
+
+    <!-- TikTok Section -->
+    <section class="container my-5" id="tiktok">
+        <h2>🎵 TikTok</h2>
+        <div class="row" id="tiktok-videos"></div>
+    </section>
+
+    <!-- Instagram Section -->
+    <section class="container my-5" id="instagram">
+        <h2>📸 Instagram</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card video-card">
+                    <img src="https://via.placeholder.com/250" class="card-img-top" alt="Instagram Viral">
+                    <div class="card-body">
+                        <h5 class="card-title">Viral Bhayani Post</h5>
+                        <p class="card-text">153 likes, 15 comments - viralbhayani on July 24, 2025.</p>
+                        <a href="https://www.instagram.com/reel/DMfiyDxTZS4/" class="btn btn-primary">View Post</a>
+                        <p class="affiliate-link"><a href="https://amzn.to/your-affiliate-link?tag=your-id">Buy related product on Amazon</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card video-card">
+                    <img src="https://via.placeholder.com/250" class="card-img-top" alt="Instagram Viral">
+                    <div class="card-body">
+                        <h5 class="card-title">Viral Bhayani Post</h5>
+                        <p class="card-text">631 likes, 20 comments - viralbhayani on July 24, 2025.</p>
+                        <a href="https://www.instagram.com/reel/DMffAwwTGvg/" class="btn btn-primary">View Post</a>
+                        <p class="affiliate-link"><a href="https://amzn.to/your-affiliate-link?tag=your-id">Buy related product on Amazon</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- X Section -->
+    <section class="container my-5" id="x">
+        <h2>🐦 X</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card video-card">
+                    <img src="https://via.placeholder.com/250" class="card-img-top" alt="X Viral">
+                    <div class="card-body">
+                        <h5 class="card-title">OnlyFans model Woesenpai viral drama</h5>
+                        <p class="card-text">OnlyFans model Woesenpai is going viral after her ex-boyfriend released videos accusing her of being abusive.</p>
+                        <a href="https://x.com/FearedBuck/status/1948367738851762404" class="btn btn-primary">View Post</a>
+                        <p class="affiliate-link"><a href="https://amzn.to/your-affiliate-link?tag=your-id">Buy related product on Amazon</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card video-card">
+                    <img src="https://via.placeholder.com/250" class="card-img-top" alt="X Viral">
+                    <div class="card-body">
+                        <h5 class="card-title">Funny video Mauro Icardi</h5>
+                        <p class="card-text">Omg funny video Mauro Icardi on Twitter and Reddit famosos natasha.</p>
+                        <a href="https://x.com/Takafumi1107/status/1948418505092558849" class="btn btn-primary">View Post</a>
+                        <p class="affiliate-link"><a href="https://amzn.to/your-affiliate-link?tag=your-id">Buy related product on Amazon</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+=======
+<!DOCTYPE html><html><head><title>Top 10 Virales</title><style>body { font-family: Arial, sans-serif; margin: 20px; } h1 { text-align: center; } h2 { margin-top: 30px; } table { width: 100%; border-collapse: collapse; margin-bottom: 20px; } th, td { border: 1px solid #ddd; padding: 8px; text-align: left; } th { background-color: #f2f2f2; } img { width: 150px; height: auto; } a { color: #007bff; text-decoration: none; } a:hover { text-decoration: underline; }</style></head><body><h1>Top 10 Virales - 27/7/2025</h1><h2>YouTube</h2><table><tr><th>Title</th><th>Views</th><th>Thumbnail</th><th>Link</th></tr><tr><td>$1 vs $25,000 Secret Rooms</td><td>6699489</td><td><img src="https://i.ytimg.com/vi/jEG8wuUE1pY/default.jpg"></td><td><a href="https://www.youtube.com/watch?v=jEG8wuUE1pY">Ver</a></td></tr><tr><td>KINGDOM Official Trailer | Vijay Deverakonda, Satya Dev, Bhagyashrii | Anirudh | Gowtam Tinnanuri</td><td>6147169</td><td><img src="https://i.ytimg.com/vi/xqdXSA8hNI4/default.jpg"></td><td><a href="https://www.youtube.com/watch?v=xqdXSA8hNI4">Ver</a></td></tr><tr><td>Peacemaker Season 2 | Official Trailer | HBO Max</td><td>2013620</td><td><img src="https://i.ytimg.com/vi/f6AZTfI54OU/default.jpg"></td><td><a href="https://www.youtube.com/watch?v=f6AZTfI54OU">Ver</a></td></tr><tr><td>YoungBoy Never Broke Again - Wine & Dine [Official Music Video]</td><td>922014</td><td><img src="https://i.ytimg.com/vi/YBUCyBB8IJo/default.jpg"></td><td><a href="https://www.youtube.com/watch?v=YBUCyBB8IJo">Ver</a></td></tr><tr><td>I got ADMIN in ROBLOX FORSAKEN</td><td>786784</td><td><img src="https://i.ytimg.com/vi/JfoiIuMKLz4/default.jpg"></td><td><a href="https://www.youtube.com/watch?v=JfoiIuMKLz4">Ver</a></td></tr><tr><td>Joyner Lucas - Round 2 K.O</td><td>643342</td><td><img src="https://i.ytimg.com/vi/pp3XMY4bxM8/default.jpg"></td><td><a href="https://www.youtube.com/watch?v=pp3XMY4bxM8">Ver</a></td></tr><tr><td>I STOLE The 9 NEWEST LAVA BRAINROTS..</td><td>617160</td><td><img src="https://i.ytimg.com/vi/poLibtnasgo/default.jpg"></td><td><a href="https://www.youtube.com/watch?v=poLibtnasgo">Ver</a></td></tr><tr><td>Popeye the Sailor Man (2026) - Live Action Trailer | Jason Statham, Emma Stone - Concept Trailer</td><td>237342</td><td><img src="https://i.ytimg.com/vi/9fHfJc5yRuA/default.jpg"></td><td><a href="https://www.youtube.com/watch?v=9fHfJc5yRuA">Ver</a></td></tr><tr><td>Kodak Black - Get Me Some Money [Official Music Video]</td><td>197066</td><td><img src="https://i.ytimg.com/vi/TKdhqYUXcHU/default.jpg"></td><td><a href="https://www.youtube.com/watch?v=TKdhqYUXcHU">Ver</a></td></tr><tr><td>Skrilla - Die 4 Me (Official Music Video)</td><td>65546</td><td><img src="https://i.ytimg.com/vi/FEoicOB7Y9Q/default.jpg"></td><td><a href="https://www.youtube.com/watch?v=FEoicOB7Y9Q">Ver</a></td></tr></table><h2>TikTok</h2><table><tr><th>Title</th><th>Likes</th><th>Thumbnail</th><th>Link</th></tr><tr><td>TT Viral 1</td><td>330000</td><td><img src="https://placehold.co/150?text=TT1"></td><td><a href="https://tiktok.com">Ver</a></td></tr><tr><td>TT Viral 2</td><td>300000</td><td><img src="https://placehold.co/150?text=TT2"></td><td><a href="https://tiktok.com">Ver</a></td></tr><tr><td>TT Viral 3</td><td>270000</td><td><img src="https://placehold.co/150?text=TT3"></td><td><a href="https://tiktok.com">Ver</a></td></tr><tr><td>TT Viral 4</td><td>240000</td><td><img src="https://placehold.co/150?text=TT4"></td><td><a href="https://tiktok.com">Ver</a></td></tr><tr><td>TT Viral 5</td><td>210000</td><td><img src="https://placehold.co/150?text=TT5"></td><td><a href="https://tiktok.com">Ver</a></td></tr><tr><td>TT Viral 6</td><td>180000</td><td><img src="https://placehold.co/150?text=TT6"></td><td><a href="https://tiktok.com">Ver</a></td></tr><tr><td>TT Viral 7</td><td>150000</td><td><img src="https://placehold.co/150?text=TT7"></td><td><a href="https://tiktok.com">Ver</a></td></tr><tr><td>TT Viral 8</td><td>120000</td><td><img src="https://placehold.co/150?text=TT8"></td><td><a href="https://tiktok.com">Ver</a></td></tr><tr><td>TT Viral 9</td><td>90000</td><td><img src="https://placehold.co/150?text=TT9"></td><td><a href="https://tiktok.com">Ver</a></td></tr><tr><td>TT Viral 10</td><td>60000</td><td><img src="https://placehold.co/150?text=TT10"></td><td><a href="https://tiktok.com">Ver</a></td></tr></table><h2>X</h2><table><tr><th>Author</th><th>Likes</th><th>Thumbnail</th><th>Link</th></tr><tr><td>@user1</td><td>220000</td><td><img src="https://placehold.co/150?text=X1"></td><td><a href="https://x.com">Ver</a></td></tr><tr><td>@user2</td><td>200000</td><td><img src="https://placehold.co/150?text=X2"></td><td><a href="https://x.com">Ver</a></td></tr><tr><td>@user3</td><td>180000</td><td><img src="https://placehold.co/150?text=X3"></td><td><a href="https://x.com">Ver</a></td></tr><tr><td>@user4</td><td>160000</td><td><img src="https://placehold.co/150?text=X4"></td><td><a href="https://x.com">Ver</a></td></tr><tr><td>@user5</td><td>140000</td><td><img src="https://placehold.co/150?text=X5"></td><td><a href="https://x.com">Ver</a></td></tr><tr><td>@user6</td><td>120000</td><td><img src="https://placehold.co/150?text=X6"></td><td><a href="https://x.com">Ver</a></td></tr><tr><td>@user7</td><td>100000</td><td><img src="https://placehold.co/150?text=X7"></td><td><a href="https://x.com">Ver</a></td></tr><tr><td>@user8</td><td>80000</td><td><img src="https://placehold.co/150?text=X8"></td><td><a href="https://x.com">Ver</a></td></tr><tr><td>@user9</td><td>60000</td><td><img src="https://placehold.co/150?text=X9"></td><td><a href="https://x.com">Ver</a></td></tr><tr><td>@user10</td><td>40000</td><td><img src="https://placehold.co/150?text=X10"></td><td><a href="https://x.com">Ver</a></td></tr></table></body></html>
+>>>>>>> db5e9a1 (Proyecto limpio, funcional – vídeos virales YouTube + TikTok)
