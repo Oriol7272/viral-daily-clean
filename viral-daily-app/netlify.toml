@@ -1,7 +1,0 @@
-[build]
-<<<<<<< HEAD
-  command = "npm install && node generate-virales.js"
-=======
-  command = "node generate-virales.js"
->>>>>>> db5e9a1 (Proyecto limpio, funcional – vídeos virales YouTube + TikTok)
-  publish = "."
