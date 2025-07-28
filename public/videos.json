@@ -1,0 +1,14 @@
+{
+  "tiktok": [
+    {
+      "title": "Video TikTok 1",
+      "thumbnail": "assets/placeholder.jpg",
+      "url": "https://www.tiktok.com/@example1"
+    },
+    {
+      "title": "Video TikTok 2",
+      "thumbnail": "assets/placeholder.jpg",
+      "url": "https://www.tiktok.com/@example2"
+    }
+  ]
+}

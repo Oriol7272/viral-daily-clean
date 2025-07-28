@@ -1,0 +1,8 @@
+[build]
+  command = "npm install && node generate-virales.js"
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+  Content-Security-Policy = "default-src 'self'; script-src 'self'; connect-src 'self'; img-src 'self' data:; style-src 'self';"
