@@ -29,7 +29,7 @@ async function getTrendingYouTubeVideos() {
 }
 
 async function getTrendingTikTokVideos() {
-  const run = await client.actor("apify/tiktok-scraper").call({
+  const run = await client.actor("clockworks/tiktok-scraper").call({
     input: {
       startUrls: [{ url: "https://www.tiktok.com/foryou" }],
       maxResults: 10,
