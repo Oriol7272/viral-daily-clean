@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Video Viral 1",
+    "url": "https://www.youtube.com/watch?v=abc123",
+    "thumbnail": "https://img.youtube.com/vi/abc123/0.jpg"
+  },
+  {
+    "title": "Video Viral 2",
+    "url": "https://www.youtube.com/watch?v=def456",
+    "thumbnail": "https://img.youtube.com/vi/def456/0.jpg"
+  },
+  {
+    "title": "Video Viral 3",
+    "url": "https://www.youtube.com/watch?v=ghi789",
+    "thumbnail": "https://img.youtube.com/vi/ghi789/0.jpg"
+  }
+]
